@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Logo from "../components/Logo.astro";
+import LandingHeader from "../components/LandingHeader.astro";
+import HeroSection from "../components/HeroSection.astro";
+import BlueSection from "../components/BlueSection.astro";
+import RedSection from "../components/RedSection.astro";
+import Red2Section from "../components/Red2Section.astro";
+import X_Section from "../components/X_Section.astro";
+import SolarPanels from "../components/SolarSection.astro";
+import ChargerSection from "../components/cargadorSection.astro";
+---
+
+<Layout title="Tesla.">
+  <link rel="stylesheet" href="/styles.css" />
+  <LandingHeader/>
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+
+  
+    <div class="snap-center">
+      <HeroSection/>
+    </div>
+    <div class="snap-center">
+      <BlueSection/>
+    </div>
+    <div class="snap-center">
+      <RedSection/>
+    </div>
+    <div class="snap-center">
+      <Red2Section/>
+    </div>
+    <div class="snap-center">
+      <X_Section/>
+    </div>
+    <div class="snap-center">
+      <SolarPanels/>
+    </div>
+    <div class="snap-center">
+      <ChargerSection/>
+    </div>
+    
+    
+   
+  
+
+  </main>
+</Layout>
+
+
+

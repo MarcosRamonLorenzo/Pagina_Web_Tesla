@@ -1,0 +1,30 @@
+<section class="landing-section h-screen  text-center relative overflow-hidden" data-header-color='black'>
+    <div class="z-30 relative h-full flex flex-col ">
+      <header class=" relative text-white">
+        <h2 class="pt-40 text-5xl font-medium">Disfrute de Tesla</h2>
+        <p class="text-sm">Programe una prueba de condución hoy mismo</p>
+      </header>
+
+      <footer
+        class="relative text-red-400 flex flex-grow flex-col justify-end pb-20   "
+      >
+      <div class="botonConducion">
+        <a class="text-white border-white border-2 rounded font-medium px-10 py-2 inline-block hover:bg-white hover:text-black   " href="#">Prueba de Conducion</a>
+      </div>
+      </footer>
+    </div>
+    <div class="absolute top-0 bottom-0 z-10 object-cover h-full">
+      <video autoplay muted loop src="/video.webm"></video>
+    </div>
+  </section>
+
+  <style>
+    .botonConducion a:hover{
+      transition: 2s;
+    }
+    
+    .text-sm{
+      margin-top: 0.5%;
+      
+    }
+    </style>
